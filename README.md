@@ -25,23 +25,41 @@ IV) Utilizaremos POSTMAN para probar nuestros endpoints con sus respectivos mét
   b. O puedes consultarlos aquí:
  
 ## Método GET
-  -/Productos                               Devuelve Lista de Produtos
-  -/Productos/:id                           Devuelve Productos por ID
-  -/Pedidos                                 Admin: Ver el estado de los Pedidos
+  -/Productos                               
+  Devuelve Lista de Produtos
+  
+  -/Productos/:id                           
+  Devuelve Productos por ID
+  
+  -/Pedidos                                 
+  Admin: Ver el estado de los Pedidos
   
 ## Método POST
-  -/usuarios/nuevo                          Crear nuevo Usuario
-  -/usuarios/login                          Logearse
-  -/pedidos                                 Realizar un nuevo Pedido
-  -/productos                               Admin: Crear nuevo Producto
+  -/usuarios/nuevo                          
+  Crear nuevo Usuario
+  
+  -/usuarios/login                          
+  Logearse
+  
+  -/pedidos                                 
+  Realizar un nuevo Pedido
+  
+  -/productos                               
+  Admin: Crear nuevo Producto
   
 ## Método PUT
-  -/pedidos/:id                             Admin: Actualizar estado de Pedidos
-  -/productos/:id                           Admin: Actualizar Productos
+  -/pedidos/:id                             
+  Admin: Actualizar estado de Pedidos
+  
+  -/productos/:id                           
+  Admin: Actualizar Productos
   
 ## Método DELETE
-  -/pedidos/:id                             Admin: Eliminar Pedidos por Id
-  -/productos/:id                           Admin: Eliminar Productos por Id
+  -/pedidos/:id                             
+  Admin: Eliminar Pedidos por Id
+  
+  -/productos/:id                           
+  Admin: Eliminar Productos por Id
   
 V) a. Para realizar cualquier acción como ADMIN debera utilizar las credenciales proporcionadas al iniciar sesión como:
     nombre: admin
